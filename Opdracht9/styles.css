@@ -1,0 +1,153 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(211, 211, 211);
+  font-family: sans-serif;
+}
+body {
+  background-color: #2b2b2e;
+  background-size: cover;
+}
+.logo {
+  width: 200px;
+}
+
+header h1 {
+  margin-left: 400px;
+  font-size: 60px;
+}
+
+a {
+  color: rgb(211, 211, 211);
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 100px 5%;
+  background-color: #313755;
+}
+
+.navlinks li {
+  display: inline-block;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0px 20px;
+  font-size: 40px;
+  align-items: center;
+}
+
+.navlinks a:hover {
+  color: crimson;
+}
+
+.sec1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  border-style: dotted;
+  padding: 40px;
+  list-style: none;
+}
+
+.sec1 li {
+  list-style: none;
+}
+
+.sec2 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+  border-style: dotted;
+  padding: 40px;
+}
+
+.Foto {
+  width: 20%;
+  padding-top: 30px;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px;
+  width: 300px;
+}
+
+.blogpost {
+  display: flex;
+  margin: 100px;
+  width: 300px; 
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+  font-size: 30px;
+}
+
+form {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  color: black;
+}
+
+input,
+textarea {
+  width: 100%;
+  font-size: 25px;
+  resize: none;
+  color: black;
+}
+
+.sec3 {
+  text-align: center;
+}
+
+button {
+  transform: scale(3);
+  color: black;
+  width: 60px;
+}
+
+
+@media (max-width: 768px) {
+  header,
+  header h1 {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sec1,
+  .sec2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Foto {
+    width: 90%;
+  }
+}
